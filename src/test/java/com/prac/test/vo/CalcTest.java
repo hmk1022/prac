@@ -9,10 +9,8 @@ class CalcTest {
 
 	@Test
 	void testSum() {
-		
 		Calculator calculator = new Calculator();
 		assertEquals(30, calculator.sum(15, 15));
-		
 	}
 
 }
